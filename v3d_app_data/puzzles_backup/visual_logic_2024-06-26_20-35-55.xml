@@ -1,0 +1,43 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000227" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="20.00000000000057" scrolly="20.000000000000057" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="nvF(:L?h0*cmAxuFRyAs" inline="false" x="150" y="90">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="DT;*p`yr8vrp.B06#^D:">
+          <field name="FIELDNAME">Cube</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="GWkNz6vyTSHm_wQI_|^J">
+          <value name="VALUE2">
+            <shadow type="materialList" id="JsaU!#LO7r}RG6sUk=2X">
+              <field name="FIELDNAME">Verge3D_Environment_World</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="6b5aWWDSmRQeT~xRbQ5W">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="execScript" id="Kl,_IJNzM}U`+8w+v/XL">
+              <value name="TEXT">
+                <shadow type="textMultiline" id="Z?lX5%W_b}SWWHubfO?{">
+                  <field name="HIGHLIGHT_MODE">javascript</field>
+                  <field name="TEXT" editor-height="10" editor-width="520">parent.document.getElementById("455").click()</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="990" viewport-y="37" viewport-w="672" viewport-h="461" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

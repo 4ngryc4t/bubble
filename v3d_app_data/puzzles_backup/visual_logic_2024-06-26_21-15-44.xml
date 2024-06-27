@@ -1,0 +1,84 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="wtzF)H-bIYFy#4!?M*yv" x="70" y="130">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="]69gEKg2]u;|hJYsT^l~">
+          <field name="TEXT">myElem</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="-bC,q(l=]}hxMD})0ii/">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="#23YCQH}Sh6DSfWNxf^[">
+          <field name="ATTRIBUTE">style</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="text" id="?:f^?JG@h5[Q?gc8./,z">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="cssStyleList" id="7(M4wVZ/7S//K)|fBA_Z">
+              <mutation xmlns="http://www.w3.org/1999/xhtml">
+                <prop name="position" shadowvalue="absolute"></prop>
+                <prop name="background-color" shadowvalue="#ADE043"></prop>
+                <prop name="width" shadowvalue="60px"></prop>
+                <prop name="height" shadowvalue="60px"></prop>
+              </mutation>
+              <value name="PROP0">
+                <shadow type="positionDropdown" id="2C8A:U0o.3MQ;f|qx%L=">
+                  <field name="TEXT">absolute</field>
+                </shadow>
+              </value>
+              <value name="PROP1">
+                <shadow type="text" id="jxMq!/d*+/lZj*uQC0J.">
+                  <field name="TEXT">#ADE043</field>
+                </shadow>
+              </value>
+              <value name="PROP2">
+                <shadow type="text" id="BPQ#6+WyD1gCEC;JsNtd">
+                  <field name="TEXT">60px</field>
+                </shadow>
+              </value>
+              <value name="PROP3">
+                <shadow type="text" id="q7F[%C]1Vtt;h4zL!!74">
+                  <field name="TEXT">60px</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="B^fzc9sSHFGUen7hZp~l">
+              <field name="TEXT">myElem</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="20.000000000000682" scrolly="19.999999999999886" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="#5omCa:9x~t7~x)O)+i$" x="90" y="110">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Vz~i{yE)vMfp@p!N?N_.">
+          <field name="TEXT">myElem</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="iOGPPjifH#-nOwsnC?Qm">
+          <value name="VALUE">
+            <shadow type="objectList" id="A]R5.@,2ktbZ^1/*sxQT">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="990" viewport-y="37" viewport-w="672" viewport-h="461" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
