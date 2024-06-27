@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="-242.9999999999999" scale="0.9">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="-116.99999999999989" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="wtzF)H-bIYFy#4!?M*yv" x="90" y="270">
       <field name="ELEMENT">div</field>
       <field name="MODE">TO</field>
@@ -60,7 +60,7 @@
       </next>
     </block>
   </tab>
-  <tab name="New Tab" type="CommonTab" active="true" scrollx="20.00000000000057" scrolly="20.000000000000114" scale="0.9">
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="20.00000000000057" scrolly="20" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="#5omCa:9x~t7~x)O)+i$" x="90" y="110">
       <field name="EVENT">click</field>
       <field name="PARENT">TRUE</field>
@@ -73,24 +73,6 @@
         <block type="hide" id="iOGPPjifH#-nOwsnC?Qm">
           <value name="VALUE">
             <shadow type="objectList" id="A]R5.@,2ktbZ^1/*sxQT">
-              <field name="FIELDNAME">Cube</field>
-            </shadow>
-          </value>
-        </block>
-      </statement>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="aTsuTC#/^z.]q#8[3:1{" x="90" y="230">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="o$P5~]dbgjP4`J614qci">
-          <field name="TEXT">myElem</field>
-        </shadow>
-      </value>
-      <statement name="DO">
-        <block type="hide" id="u^h0g$oMUwPOwnfaeb%B">
-          <value name="VALUE">
-            <shadow type="objectList" id="?bp:O=yl}q]shOeihsrb">
               <field name="FIELDNAME">Cube</field>
             </shadow>
           </value>
